@@ -1,0 +1,21 @@
+body{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 200px;
+}
+
+.reload-button {
+    padding: 10px 20px;
+    background-color: #424642;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.reload-button:hover {
+    background-color: #3d8c41;
+}
