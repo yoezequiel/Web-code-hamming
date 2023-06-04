@@ -1,9 +1,16 @@
-body{
+body {
     background-color: #333;
     color: white;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 200px;
+    padding-top: 10%;
+    margin: 0;
+}
+@media (max-width: 600px) {
+    body {
+        padding-top: 20%;
+        font-size: 14px;
+    }
 }
 
 .reload-button {
@@ -14,7 +21,18 @@ body{
     cursor: pointer;
     border-radius: 4px;
     font-size: 16px;
+    display: inline-block;
 }
+
+@media (max-width: 600px) {
+    .reload-button {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
 
 .reload-button:hover {
     background-color: #3d8c41;
